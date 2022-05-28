@@ -1,0 +1,292 @@
+/* 
+ Theme Name: Custom Theme
+ Author: Vipin Patel
+ Version: 1.0
+ Description: This is new Wordpress theme as a Basic template.
+*/
+li.navbar-item .active{
+    border-bottom: 2px solid red;
+    
+
+}
+.al a:hover{
+    border-bottom: 2px solid red;
+
+}
+
+.list{
+    list-style-type: square;
+  
+}
+
+.list2{
+    list-style-type: circle;
+}
+
+.color_text{
+    color: #1a6692;
+    font-size: 17px;
+}
+
+.button{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.4s;
+    background-color: #f33f3f;
+    
+}
+.button1:hover{
+    background-color: black;
+    color: white;
+}
+
+.button2{
+    border: none;
+    color: white;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.4s;
+    background-color: #f33f3f;
+
+}
+
+.newbutton {
+    text-decoration: none;
+    color: white;
+}
+.newbutton:hover{
+    color:white;
+    background-color: black;
+}
+
+@media only screen and (max-width: 765px){
+    .button2{
+        width: 100%;
+    }
+
+}
+
+.list3{
+    list-style-type: none;
+      
+    margin-left: 10px;
+   display: inline-block;
+}
+
+
+
+.head_image{
+    padding: 210px 0px 130px 0px;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+.head_image1{
+    padding: 210px 0px 130px 0px;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+.head_image2{
+    padding: 210px 0px 130px 0px;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+  .pagination a{
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    
+    margin: 0 4px;
+
+  }
+
+  .pagination a:hover{
+
+    background-color: #f33f3f;
+    color: white;
+  }
+  
+  .pagination a.active{
+      background-color: #f33f3f;
+      color: white;
+  }
+
+  .butt01{
+      background-color: #eee;
+      border: none;
+      height: 50px;
+      width: 50px;
+      
+  }
+
+  .butt01:hover {
+      background-color: #f33f3f;
+      color: white;
+  }
+
+  .butt01 i {
+      color: black;
+  }
+
+  .butt01:hover i{
+    color: white;
+}
+
+
+
+.but01{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.4s;
+    background-color: #f33f3f;
+}
+.but01:hover{
+    background-color: #f33f3f;
+    color: white;
+}
+
+.h1{
+    font-size: 60px;
+}
+
+/* project_3rd_page css codes */
+
+.images{
+    position: relative;
+}
+
+.image_overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 61%;
+    background: rgba(243,63,63,0.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    overflow: hidden; 
+}
+.image_overlay:hover{
+    opacity: 1;
+}
+
+.butt02{
+    background-color: #eee;
+    border: none;
+    height: 50px;
+    width: 50px;
+    
+}
+
+.butt02:hover {
+    background-color: white;
+    
+}
+
+.butt02 i {
+    color: black;
+}
+
+.butt02:hover i{
+  color: #f33f3f;
+}
+
+.running{
+    /* background-image: url("C://xampp/htdocs/B_pro/pro_images/services-bg.jpg"); */
+    width: 100%;
+    height: 600px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    overflow: auto;
+}
+
+.bt01{
+    margin-top: 30px;
+    height: 80px;
+    width: 100px;
+    margin-left: auto;
+    background-color: #f33f3f;
+    color: white;
+    border: none;
+    font-size: 32px;
+    
+}
+#But02{
+    background-color:#f33f3f;
+    color: white;
+    border: none;
+    padding: 12px 28px;
+    margin-top: 10px;
+}
+textarea.wpcf7-form-control.wpcf7-textarea.wpcf7-validates-as-required.mess{
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 1px solid #d9d7d7;
+    resize: none;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+input.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required{
+    width: 100%;
+    height: 50px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    border: 1px solid #d9d7d7;
+    resize: none;
+}
+
+a.accordion.newlink.collapsed{
+    color: #1a6692;
+}
+a.accordion.collapsed:hover{
+    color: #f33f3f;
+}
+[type=button]:not(:disabled), 
+[type=reset]:not(:disabled), 
+[type=submit]:not(:disabled), 
+button:not(:disabled){
+    cursor: pointer;
+    color: #f33f3f;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
